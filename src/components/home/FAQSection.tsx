@@ -28,9 +28,10 @@ export default function FAQSection() {
   return (
     <section className="py-24 bg-surface">
       <div className="container px-4 mx-auto max-w-3xl">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">שאלות נפוצות</h2>
-          <p className="text-muted-foreground text-lg">כל מה שחשוב לך לדעת לפני שנתחיל</p>
+        <div className="text-center mb-16">
+          <span className="text-accent font-semibold tracking-wider uppercase text-sm mb-4 block">מרכז מידע</span>
+          <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary italic mb-6">שאלות נפוצות</h2>
+          <p className="text-muted-foreground text-lg max-w-xl mx-auto">כל מה שחשוב לך לדעת כדי להרגיש בטוחה ונינוחה לפני הטיפול הראשון שלך</p>
         </div>
         
         <Accordion type="single" collapsible className="w-full space-y-4">
