@@ -69,7 +69,7 @@ export default function AIConsultant() {
       <div className="container px-4 mx-auto max-w-4xl relative">
         <div className="flex items-center justify-center gap-3 mb-8">
           <Sparkles className="text-primary" size={24} />
-          <h2 className="text-2xl font-bold text-foreground">היועצת האישית של אנושקה</h2>
+          <h2 className="text-2xl md:text-4xl font-serif font-bold text-primary italic">היועצת האישית של אנושקה</h2>
           <Sparkles className="text-primary" size={24} />
         </div>
 

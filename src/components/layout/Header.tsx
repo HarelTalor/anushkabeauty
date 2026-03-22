@@ -60,10 +60,14 @@ export default function Header() {
 
           {/* Mobile Toggle */}
           <button
-            className={`md:hidden p-2 rounded-lg ${scrolled ? "text-primary bg-primary/5" : "text-white bg-white/10"}`}
+            className={`md:hidden p-2 rounded-full transition-all duration-300 ${
+              scrolled 
+                ? "text-primary bg-primary/10 border border-primary/20 shadow-sm" 
+                : "text-white bg-black/20 backdrop-blur-md border border-white/20"
+            } hover:scale-110 active:scale-95`}
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X size={32} /> : <Menu size={32} />}
+            {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </nav>
 
